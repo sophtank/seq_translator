@@ -23,7 +23,7 @@ for line in lines:
     if line[0] != '>':
         rna.append(line)
 
-rna = [r.replace('[br]', '<br />') for r in rna]
+rna = [r.replace('T', 'U') for r in rna]
 print(rna)
 
 #dictionary of all amino acid codons
