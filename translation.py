@@ -43,6 +43,9 @@ codons = {
         "GGU" : "G", "GGC" : "G", "GGA" : "G", "GGG" : "G",
     }
 
+
+    
+
 protein = []
 
 def diction(rna):
